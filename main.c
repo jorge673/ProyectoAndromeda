@@ -103,8 +103,6 @@ void Menu(int argc, char** argv){
 
     }
 
-}
-
 //FUNCION SDL PARA JUEGO
 void Ventana(int argc, char** argv){
     //Crear puntero ventana ; declarar dimensiones de la ventana emergente
@@ -142,7 +140,7 @@ void Ventana(int argc, char** argv){
                     running = false;
                 }
             }
-            //Menú
+            //Menï¿½
             SDL_UpdateWindowSurface(window);
             SDL_SetRenderDrawColor(renderer,0,0,0,0);
             SDL_RenderClear(renderer);
@@ -190,7 +188,7 @@ void guardarDatosListaCSV(){
 void rankings(){
 
     List *listaRankings = createList();
-    //Usuario *aux¨= user;
+    //Usuario *auxï¿½= user;
 
     //meter usuario en la lista
     //pushBack(listaRankings,aux);
