@@ -3,7 +3,6 @@
 #include <stdbool.h>
 #include <SDL2/SDL.h>
 #include <windows.h>
-#include <SDL2/SDL_image.h>
 
 #define MenuInicio 1
 #define MenuFin 5
